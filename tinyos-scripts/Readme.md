@@ -18,4 +18,7 @@ Intructions:
 	4. New TinyOS Project with send receive
 		To use this script, Type tos-newproject <basename for your program>.
 		To use this you need to have  basic_send_receive project from my repository in ~/tinyos-projects/basic_send_receive
-		
+
+	5. Burn-exp5438_2520
+		This script is used to burn the MSP430Experimenters board with the Tinyos code.
+		Usage is similar to the one mentioned in burn. To use this you need to have MSP430Flasher which can be easily obtained from TI's Website.		
