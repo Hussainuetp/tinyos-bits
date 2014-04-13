@@ -1,0 +1,6 @@
+make exp5438_2520
+echo $1
+tos-set-symbols --objcopy msp430-objcopy --objdump msp430-objdump --target ihex build/exp5438_2520/main.ihex build/exp5438_2520/main.ihex TOS_NODE_ID=$1 ActiveMessageAddressC__addr=$1
+cp build/exp5438_2520/main.ihex build/exp5438_2520/main.hex
+sudo chmod 777 /dev/ttyACM0
+~/ti_msp430/MSP430Flasher -n MSPF5438A -w build/exp5438_2520/main.hex
