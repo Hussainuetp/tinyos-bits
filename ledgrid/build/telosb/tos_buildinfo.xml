@@ -1,0 +1,8 @@
+<metrics>
+  <ram>126</ram>
+  <telosb-ram>126</telosb-ram>
+  <flash>14180</flash>
+  <telosb-flash>14180</telosb-flash>
+  <stack>550</stack>
+  <telosb-stack>550</telosb-stack>
+</metrics>
